@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemistry Lab</title>
+  <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Chemistry Lab</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section id="home">
+    <div class="container">
+      <h2>Welcome to the Chemistry Lab</h2>
+      <p>Your gateway to advanced scientific experiments and research.</p>
+      <button onclick="learnMore()">Learn More</button>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are dedicated to advancing chemical science with cutting-edge technology and innovative research.</p>
+    </div>
+  </section>
+  
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Material Analysis</li>
+        <li>Custom Synthesis</li>
+        <li>Quality Control</li>
+        <li>Educational Workshops</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter Your Name" >
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Your Email Address">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Chemistry Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="lab.js"></script>
+</body>
+</html>
